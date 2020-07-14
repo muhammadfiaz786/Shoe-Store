@@ -6,7 +6,7 @@ export default function ProductItem() {
    const { id } = useParams();
    const shoe = Shoes[id];
 
-   if(!shoe) 
+   if(!shoe)
        return <h2>Product Not Found!</h2>
    
     return (
